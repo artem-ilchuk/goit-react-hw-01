@@ -1,0 +1,17 @@
+.title {
+  font-weight: 700;
+}
+
+.list {
+  width: 480px;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.item {
+  padding: 10px 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
