@@ -5,7 +5,7 @@ import userData from "../../userData.json";
 const FriendList = ({ friends }) => {
   return (
     <div className={styles.friendlist}>
-      <p className={styles.title}>Friends of {userData.username}</p>
+      <h3 className={styles.title}>Friends of {userData.username}</h3>
       <ul className={styles.list}>
         {friends.map((friend) => {
           return (
